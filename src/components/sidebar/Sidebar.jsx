@@ -1,5 +1,6 @@
 import React from 'react';
 import './Sidebar.css';
+import { Link } from 'react-router-dom';
 import { LineStyle,Timeline, TrendingUp, PermIdentity, Storefront, AttachMoney, BarChart, DynamicFeed , MailOutline , ChatBubbleOutline, WorkOutline, Report  } from '@material-ui/icons';
 
 function Sidebar() {
@@ -9,10 +10,13 @@ function Sidebar() {
              <div className='sidebarMenu'>
                  <h3 className='sidebarTitle'>Dashboard</h3>
                  <ul className='sidebarList'>
+                 <Link to='/' className='link'>
                     <li className='sidebarListItem  active'>
-                        <LineStyle className="sidebarIcon" />
-                        Home
+                            <LineStyle className="sidebarIcon" />
+                            Home
                     </li>
+                 </Link>
+                   
                     <li className='sidebarListItem'>
                         <Timeline className="sidebarIcon" />
                         Analytics
@@ -27,14 +31,19 @@ function Sidebar() {
              <div className='sidebarMenu'>
                  <h3 className='sidebarTitle'>Quick Menu</h3>
                  <ul className='sidebarList'>
+                 <Link to='/users'>
                     <li className='sidebarListItem'>
-                        <PermIdentity className="sidebarIcon" />
-                        Users
+                            <PermIdentity className="sidebarIcon" />
+                            Users
                     </li>
+                 </Link>
+                   <Link to='/products'>
                     <li className='sidebarListItem'>
-                        <Storefront className="sidebarIcon" />
-                        Products
+                            <Storefront className="sidebarIcon" />
+                            Products
                     </li>
+                   </Link>
+                    
                     <li className='sidebarListItem'>
                         <AttachMoney className="sidebarIcon" />
                         Transactions
