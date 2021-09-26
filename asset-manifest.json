@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dashboard-react/static/css/main.6f928e75.chunk.css",
+    "main.js": "/dashboard-react/static/js/main.93e6990e.chunk.js",
+    "main.js.map": "/dashboard-react/static/js/main.93e6990e.chunk.js.map",
+    "runtime-main.js": "/dashboard-react/static/js/runtime-main.b0bb0853.js",
+    "runtime-main.js.map": "/dashboard-react/static/js/runtime-main.b0bb0853.js.map",
+    "static/js/2.7f9cd4cf.chunk.js": "/dashboard-react/static/js/2.7f9cd4cf.chunk.js",
+    "static/js/2.7f9cd4cf.chunk.js.map": "/dashboard-react/static/js/2.7f9cd4cf.chunk.js.map",
+    "index.html": "/dashboard-react/index.html",
+    "static/css/main.6f928e75.chunk.css.map": "/dashboard-react/static/css/main.6f928e75.chunk.css.map",
+    "static/js/2.7f9cd4cf.chunk.js.LICENSE.txt": "/dashboard-react/static/js/2.7f9cd4cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0bb0853.js",
+    "static/js/2.7f9cd4cf.chunk.js",
+    "static/css/main.6f928e75.chunk.css",
+    "static/js/main.93e6990e.chunk.js"
+  ]
+}
