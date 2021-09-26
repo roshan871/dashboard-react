@@ -6,6 +6,7 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import UserList from './pages/userList/UserList';
 import User from './pages/user/User';
 import NewUser from './pages/newUser/NewUser';
+import ProductList from './pages/productList/ProductList';
 
 
 
@@ -27,6 +28,9 @@ function App() {
             </Route>
             <Route path='/newUser'>
               <NewUser />
+            </Route>
+            <Route path='/products'>
+              <ProductList />
             </Route>
         </Switch>
       </div>
