@@ -2,7 +2,7 @@ import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
 import Topbar from './components/Topbar.js/Topbar';
 import Home from './pages/home/Home';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import UserList from './pages/userList/UserList';
 import User from './pages/user/User'
 
