@@ -60,6 +60,8 @@ export const userData = [
         
       },
   ];
+
+  
   export const productData = [
     {
       name: "Apple Airpods",
@@ -74,6 +76,7 @@ export const userData = [
       "Sales": 5000,
     },
   ];
+  
   export const userRows = [
     { 
         id: 1,
